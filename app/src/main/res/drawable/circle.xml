@@ -16,7 +16,9 @@
                 android:shape="ring"
                 android:thicknessRatio="16"
                 android:useLevel="true">
-                <solid android:color="@color/purple_200"/>
+                <gradient
+                    android:startColor="@color/purple_200"
+                    android:endColor="@color/teal_700"/>
             </shape>
         </rotate>
     </item>
